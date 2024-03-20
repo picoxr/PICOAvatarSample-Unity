@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appSettings:
-    usingMatrixService: 0
+    localMode: 1
     autoGarbageCollection: 1
     serverType: 1
     mainCamera: {fileID: 0}

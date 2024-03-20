@@ -953,6 +953,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
         type: 3}
+      propertyPath: appSettings.localMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
+        type: 3}
       propertyPath: appSettings.serverType
       value: 1
       objectReference: {fileID: 0}
@@ -960,6 +965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: appSettings.avatarSdkVersion
       value: 2.6.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
+        type: 3}
+      propertyPath: appSettings.usingMatrixService
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
         type: 3}
@@ -2715,6 +2725,7 @@ MonoBehaviour:
   allowAvatarMetaFromCache: 0
   headShowType: 1
   bodyCulling: 1
+  useFT_Lipsync: 0
   recordBodyAnimLevel: 3
   criticalJoints: 
   enablePlaceHolder: 1

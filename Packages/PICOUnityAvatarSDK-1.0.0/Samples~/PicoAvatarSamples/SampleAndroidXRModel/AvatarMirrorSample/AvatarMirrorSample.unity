@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appSettings:
-    localMode: 1
+    localMode: 0
     autoGarbageCollection: 1
     serverType: 1
     mainCamera: {fileID: 0}

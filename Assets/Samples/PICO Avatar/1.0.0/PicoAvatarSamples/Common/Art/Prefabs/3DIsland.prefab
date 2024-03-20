@@ -3932,7 +3932,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ea7fe367570cbcc4bb9f9f61a7807d2f,
         type: 3}
       propertyPath: m_Name
-      value: "\u4E2D\u5FC3\u5C0F\u5C9B\u8C03\u657402"
+      value: centerisland
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea7fe367570cbcc4bb9f9f61a7807d2f, type: 3}

@@ -3,7 +3,7 @@
   "displayName": "PICO Avatar",
   "version": "1.0.0",
   "unity": "2021.3",
-  "description": "Provides rich and colorful avatar support to easily realize a vivid virtual avatar",
+  "description": "Provides a range of features, components, and scripts covering rendering, interaction, sensing, platform services, and more.",
   "keywords": [
     "pico",
     "avatar",
@@ -24,10 +24,5 @@
       "path": "Samples~/PicoAvatarSamples"
     }
   ],
-  "unityRelease": "21f1",
-  "author": {
-    "name": "Jinmingfei",
-    "email": "Jinmingfei@bytedance.com",
-    "url": "https://developer-cn.pico-interactive.com/sdk?deviceId=1&platformId=1&itemId=12"
-  }
+  "unityRelease": "21f1"
 }

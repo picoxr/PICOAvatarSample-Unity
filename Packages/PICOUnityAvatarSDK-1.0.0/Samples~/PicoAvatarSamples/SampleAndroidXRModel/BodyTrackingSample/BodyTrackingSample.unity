@@ -954,7 +954,7 @@ PrefabInstance:
     - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
         type: 3}
       propertyPath: appSettings.localMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
         type: 3}
@@ -965,6 +965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: appSettings.avatarSdkVersion
       value: 2.6.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
+        type: 3}
+      propertyPath: appSettings.usingMatrixService
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
         type: 3}
