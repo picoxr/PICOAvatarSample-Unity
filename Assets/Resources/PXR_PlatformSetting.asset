@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entitlementCheckSimulation: 0
   startTimeEntitlementCheck: 0
-  appID: 
+  appID: a3e35b37bc4d8394e2912928caded3d8
   useHighlight: 1
   deviceSN: []

@@ -216,16 +216,17 @@
       }
     },
     "org.byted.avatar.sdk": {
-      "version": "file:PICOUnityAvatarSDK-1.0.0",
+      "version": "https://github.com/Pico-Developer/PICO-Avatar-SDK-Unity.git#V2.0.0",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.unity.inputsystem": "1.5.1",
         "com.unity.modules.uielements": "1.0.0",
         "com.unity.mathematics": "1.2.6",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.unity.render-pipelines.universal": "12.1.7"
-      }
+        "com.unity.render-pipelines.universal": "10.6.0"
+      },
+      "hash": "4afec9b88dd663605acff61b5ec215344af6f700"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
