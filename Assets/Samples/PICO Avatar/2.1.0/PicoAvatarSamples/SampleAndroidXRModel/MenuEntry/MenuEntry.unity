@@ -2588,11 +2588,13 @@ MonoBehaviour:
   screenFade: 0
   eyeTracking: 0
   trackingMode: 0
+  sharpeningMode: 0
+  sharpeningEnhance: 0
   faceTracking: 0
   lipsyncTracking: 0
   lateLatching: 0
   latelatchingDebug: 0
-  bodyTracking: 0
+  bodyTracking: 1
   foveationLevel: -1
   adaptiveResolution: 0
   eyeFoveationLevel: -1
@@ -2611,6 +2613,7 @@ MonoBehaviour:
   adaptiveResolutionPowerSetting: 1
   minEyeTextureScale: 0.7
   maxEyeTextureScale: 1.26
+  enableSuperResolution: 0
   useRecommendedAntiAliasingLevel: 1
 --- !u!114 &277982870748415882
 MonoBehaviour:
@@ -3712,7 +3715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844667a65f5a05942b65a34b217def60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneEntryButton: []
   buttonItem: {fileID: 8854738302512533270, guid: 1bfd1fc1e8a80134ba0ee554136b5f3c,
     type: 3}
   menuRoot: {fileID: 442612952574543829}
@@ -3721,6 +3723,11 @@ MonoBehaviour:
   sceneDesc: {fileID: 225425188}
   jumpDialog: {fileID: 392669141}
   includeList:
+  - AvatarAnimTest
+  - AvatarCustomAnimationTest
+  - AvatarCustomHandTest
+  - HeightAutoFitAPITest
+  - AvatarHomeCenter
   - LoadAvatarSample
   - AvatarMirrorSample
   - HandPoseAPISample

@@ -976,6 +976,11 @@ PrefabInstance:
       propertyPath: appSettings.autoStartAvatarManager
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1273630387674298529, guid: 397fe764c2f904fa9b58e8450f75638b,
+        type: 3}
+      propertyPath: appSettings.enableStaticMeshBatching
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2345975864829640533, guid: 397fe764c2f904fa9b58e8450f75638b,
         type: 3}
       propertyPath: m_Name

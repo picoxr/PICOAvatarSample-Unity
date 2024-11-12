@@ -509,6 +509,49 @@ namespace Pico.Avatar.Sample
                 sourceRenderMesh.onMeshUpdate -= OnMeshUpdate;
                 sourceRenderMesh.onMeshUpdate += OnMeshUpdate;
             }
+
+            var mergedRenderMeshs = source.transform.GetComponentsInChildren<PicoAvatarMergedRenderMesh>(true);
+            foreach (var mergedRenderMesh in mergedRenderMeshs)
+            {
+                var renderGo = new GameObject(mergedRenderMesh.name + "_Mirror");
+                var renderTrans = renderGo.transform;
+
+                var nameHash = Utility.AddNameToIDNameTable(mergedRenderMesh.transform.parent.name);
+                var parentMirrorTrans = _mirroredAvatarSkeleton.GetTransform((int)nameHash);
+
+                renderTrans.parent = parentMirrorTrans == null ? lodTransform : parentMirrorTrans;
+                renderTrans.localPosition = mergedRenderMesh.transform.localPosition;
+                renderTrans.localRotation = mergedRenderMesh.transform.localRotation;
+                renderTrans.localScale = mergedRenderMesh.transform.localScale;
+                renderTrans.gameObject.SetActive(mergedRenderMesh.transform.gameObject.activeSelf);
+
+                // var avatarSkeleton = mirroredAvatarLodSkeleton.GetAdditiveSkeleton(mergedRenderMesh.avatarSke)
+                var skinnedMeshRenderer = mergedRenderMesh.skinnedMeshRenderer;
+                if (skinnedMeshRenderer != null)
+                {
+                    var selfRenderer = renderGo.AddComponent<SkinnedMeshRenderer>();
+                    selfRenderer.sharedMaterial = mergedRenderMesh.skinnedMeshRenderer.sharedMaterial;
+                    selfRenderer.sharedMesh = mergedRenderMesh.meshBuffer.mesh;
+                    selfRenderer.localBounds = mergedRenderMesh.meshBuffer.mesh.bounds;
+
+                    {
+                        var boneNameHashes = mergedRenderMesh.meshBuffer.boneNameHashes;
+                        var bones = new Transform[boneNameHashes.Length];
+                        for (int i = 0; i < boneNameHashes.Length; i++)
+                        {
+                            var trans = _mirroredAvatarSkeleton.GetTransform(boneNameHashes[i]);
+                            if (trans == null)
+                            {
+                                AvatarEnv.Log(DebugLogMask.GeneralError, "transform for a bone not found!");
+                            }
+                            bones[i] = trans;
+                        }
+
+                        selfRenderer.rootBone = _mirroredAvatarSkeleton.rootTransform;
+                        selfRenderer.bones = bones;
+                    }
+                }
+            }
         }
 
 

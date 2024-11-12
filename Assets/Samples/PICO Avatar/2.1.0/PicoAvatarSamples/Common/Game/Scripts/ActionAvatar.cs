@@ -193,7 +193,7 @@ namespace Pico.Avatar.Sample
             if (manifestationType == AvatarManifestationType.HeadHands || manifestationType == AvatarManifestationType.Hands)
             {// mode must set handAssetId
 #if UNITY_EDITOR
-                if (Utility.GetPCNation() == NationType.China)
+                if (Utility.IsCnDevice())
 #elif UNITY_ANDROID
                 if (ApplicationService.GetSystemInfo().IsCnDevice)
 #endif
@@ -245,6 +245,7 @@ namespace Pico.Avatar.Sample
                 if (loadedFinishCall != null)
                     loadedFinishCall(this);
             };
+            Debug.Log("@@@@@@@@@@@@@@@userId" + userId);
             if (!string.IsNullOrEmpty(this.jsonAvatar))
             {
                 avatar = PicoAvatarManager.instance.LoadAvatar(new AvatarLoadContext(userId, this.avatarID, this.jsonAvatar, capability), callback);

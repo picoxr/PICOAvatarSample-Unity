@@ -19,7 +19,7 @@ namespace Pico.Avatar.Sample
                 m_loginPlatformSDK = state;
             };
             this.SvrPlatformLogin(loginCall);
-            string assetPath = (Application.dataPath + "/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/DynamicAnimationClipSample");
+            string assetPath = (Application.dataPath + "/PicoAvatarSamples/SampleAndroidXRModel/DynamicAnimationClipSample");
             animationGroupAssets = new AnimationDecompressor("animaz", assetPath, "dev_animation_group_list.txt");
 
         }

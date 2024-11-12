@@ -3962,20 +3962,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appSettings:
-    localMode: 1
+    enableStaticMeshBatching: 0
     autoGarbageCollection: 1
     serverType: 1
     mainCamera: {fileID: 0}
     additiveGI: 0
     enabledFullscreenFeatures: 0
     localResourcePath: 
-  loginSettings:
-    userID: 
-    accessToken: 
   logSettings:
     debugLogMasks: -1
     enableLogTime: 1
   renderSettings:
+    useCustomMaterial: 0
+    customMaterialDatabase: {fileID: 0}
     disablePrimitiveMerge: 0
     forceDisableCastShadow: 0
     forceDisableReceiveShadow: 0
@@ -4035,7 +4034,6 @@ MonoBehaviour:
     enableStats: 0
     enableSystemInfo: 0
     traceNativeCaller: 0
-  accessType: 1
 --- !u!114 &1345976999579860772
 MonoBehaviour:
   m_ObjectHideFlags: 0

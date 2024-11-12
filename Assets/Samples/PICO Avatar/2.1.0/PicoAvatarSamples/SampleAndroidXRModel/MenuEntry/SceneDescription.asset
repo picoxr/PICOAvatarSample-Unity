@@ -13,6 +13,14 @@ MonoBehaviour:
   m_Name: SceneDescription
   m_EditorClassIdentifier: 
   sceneDescGroup:
+  - sceneName: AvatarAnimTest
+    sceneDesc: <b><size=30>AvatarAnimTest</size></b>
+  - sceneName: AvatarCustomAnimationTest
+    sceneDesc: <b><size=30>AvatarCustomAnimationTest</size></b>
+  - sceneName: AvatarCustomHandTest
+    sceneDesc: <b><size=30>AvatarCustomHandTest</size></b>
+  - sceneName: HeightAutoFitAPITest
+    sceneDesc: <b><size=30>HeightAutoFitAPITest</size></b>
   - sceneName: LoadAvatarSample
     sceneDesc: '<b><size=30>Introduction</size></b>\n
 
@@ -25,6 +33,8 @@ MonoBehaviour:
 
       The initialization process of PicoAvatarApp and
       the creation process of PicoAvatar'
+  - sceneName: AvatarHomeCenter
+    sceneDesc: <b><size=30>AvatarHomeCenter</size></b>
   - sceneName: AvatarMirrorSample
     sceneDesc: "<b><size=30>Introduction</size></b>\\n\nPicoAvatar SDK initializes
       the process and loads the current image of the user center\n\n\n<b><size=30>You
