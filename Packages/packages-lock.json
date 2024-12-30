@@ -160,8 +160,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.core-utils": {
-      "version": "2.2.0",
-      "depth": 2,
+      "version": "2.3.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.xr": "1.0.0"
@@ -207,16 +207,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:UnityIntegrationSDK-2.5.0",
+      "version": "file:C:/Users/Admin/Desktop/SDK/PICO Unity Integration SDK-3.0.5-20241105",
       "depth": 0,
-      "source": "embedded",
+      "source": "local",
       "dependencies": {
         "com.unity.xr.management": "4.0.0",
-        "com.unity.xr.interaction.toolkit": "2.0.0"
+        "com.unity.xr.interaction.toolkit": "2.0.0",
+        "com.unity.xr.core-utils": "2.3.0"
       }
     },
     "org.byted.avatar.sdk": {
-      "version": "https://github.com/Pico-Developer/PICO-Avatar-SDK-Unity.git#V2.1.0",
+      "version": "https://github.com/Pico-Developer/PICO-Avatar-SDK-Unity.git#V2.1.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -226,7 +227,7 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.render-pipelines.universal": "10.6.0"
       },
-      "hash": "ecbd36a8078c91d918dc5c6a8ba3574c2a091ef7"
+      "hash": "1c906f00afc603aa85fe40b49618097768a3c575"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
