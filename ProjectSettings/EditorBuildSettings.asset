@@ -5,38 +5,32 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/MenuEntry/MenuEntry.unity
+  - enabled: 0
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/MenuEntry/MenuEntry.unity
     guid: 053ae0bfb3f1ba543ac33905695c62f4
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/AvatarIKSample/AvatarIKSample.unity
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/AvatarIKSample/AvatarIKSample.unity
     guid: 77fa18b6352a29f48abbac65c1e8bfe4
-  - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/AvatarMirrorSample/AvatarMirrorSample.unity
+  - enabled: 0
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/AvatarMirrorSample/AvatarMirrorSample.unity
     guid: 6abe7b1652f3a400db96513f190e4b41
-  - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/BodyTrackingSample/BodyTrackingSample.unity
+  - enabled: 0
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/BodyTrackingSample/BodyTrackingSample.unity
     guid: 3126a3dc7ab856344885802f24382ab0
-  - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/DynamicAnimationClipSample/DynamicAnimationClipSample.unity
+  - enabled: 0
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/DynamicAnimationClipSample/DynamicAnimationClipSample.unity
     guid: 435112e9cb8c94c38b5b5e3209a5a9f5
-  - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/HandPoseAPISample/HandPoseAPISample.unity
+  - enabled: 0
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/HandPoseAPISample/HandPoseAPISample.unity
     guid: d18dcba6d2a9443d29e0c7e6b58f7c26
-  - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/HeightAutoFitAPISample/HeightAutoFitAPISample.unity
+  - enabled: 0
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/HeightAutoFitAPISample/HeightAutoFitAPISample.unity
     guid: 7c1b33f2265254e03a0c9cd68f646a45
   - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/LoadAvatarSample/LoadAvatarSample.unity
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/LoadAvatarSample/LoadAvatarSample.unity
     guid: 4a0e7560622214143a4b219caba99f66
-  - enabled: 1
-    path: Assets/Samples/PICO Avatar/2.0.0/PicoAvatarSamples/SampleAndroidXRModel/PacketSyncAPISample/PacketSyncAPISample.unity
+  - enabled: 0
+    path: Assets/Samples/PICO Avatar/2.1.1/PicoAvatarSamples/SampleAndroidXRModel/PacketSyncAPISample/PacketSyncAPISample.unity
     guid: 3b1fe22db0eb541a1bd683e6d3be7b10
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: b1446ab9fed11d145b075bb820b95efb,
