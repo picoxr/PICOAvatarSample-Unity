@@ -6,8 +6,8 @@ This repo contains samples demonstrating the usage of the Avatar SDK.
 | Environment          | Version             |
 |----------------------|---------------------|
 | Unity Editor         | &ge;2020.3 &le;2022.3 |
-| PICO Unity Integration SDK | &ge;2.5.0           |
-| PICO Device's System Version | &ge;5.9.0           |
+| PICO Unity Integration SDK | &ge;3.0.0           |
+| PICO Device's System Version | &ge;5.12.0           |
 
 
 
