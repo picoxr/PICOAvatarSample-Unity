@@ -227,7 +227,7 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.render-pipelines.universal": "10.6.0"
       },
-      "hash": "1c906f00afc603aa85fe40b49618097768a3c575"
+      "hash": "1a23ba6280395c76ffc81bd3c2ac67e6a04faa79"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
