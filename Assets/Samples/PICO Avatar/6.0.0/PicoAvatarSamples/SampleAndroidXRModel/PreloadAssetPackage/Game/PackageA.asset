@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a51577a8cbce4e4c9f783fa931d10f5, type: 3}
+  m_Name: PackageA
+  m_EditorClassIdentifier: 
+  buildScenePathName: Packages/org.byted.avatar.sdk/Scenes/ImportPreloadAssetPackage.unity
+  packageName: bit-club
+  packagePathName: Assets/PicoAvatarSamples/SampleAndroidXRModel/PreloadAssetPackage/Resources/PicoAvatar/PreloadPackages/PackageA
+  lodLevels: 000000000100000002000000
+  avatarSpecTexts:
+  - '       {     "info": {         "sex": "male",         "continent": "EU",        
+    "status": "Online",         "tag_list": [             "Common"         ],        
+    "background": {             "start_color": [                 148,                
+    111,                 253             ],             "end_color": [                
+    133,                 182,                 255             ],             "image":
+    "https://dfsedffe.png"         },         "avatar_type": "preset"     },    
+    "avatar": {         "skin": {             "color": "",             "white": 0,            
+    "softening": 0         },         "head": {             "technique": "Pico2-BS",            
+    "version": 1,             "floatIdParams": [],             "perParams": []        
+    },         "body": {             "technique": "Pico2-Bone",             "version":
+    1,             "floatIdParams": [],             "perParams": []         },        
+    "skeleton": {             "assetId": "1748009063802458112"         },        
+    "assetPins": [             {                 "assetId": "1758939291043266560",                
+    "ownerAssetId": null,                 "assetMeta": {                     "extData":
+    null,                     "pinType": 1,                     "assetType": 11,                    
+    "pinEditAttrs": {                         "regionMap": null,                        
+    "colorFlags": 0,                         "shoeParams": null,                        
+    "regionColors": [                             {                                
+    "regionType": 0,                                 "defaultPresetIndex": 0,                                
+    "minMultiplier": [                                     0,                                    
+    0,                                     0,                                    
+    0                                 ],                                 "maxMultiplier":
+    [                                     1,                                    
+    5,                                     5,                                    
+    5                                 ],                                 "presets":
+    []                             }                         ]                    
+    },                     "subAssetMetas": null,                     "texRegionLayerMasks":
+    null,                     "meshRegionLayerMasks": [                         [                            
+    21,                             1023                         ],                        
+    [                             19,                             1023                        
+    ],                         [                             12,                            
+    1023                         ],                         [                            
+    11,                             1023                         ],                        
+    [                             10,                             1023                        
+    ],                         [                             13,                            
+    1023                         ],                         [                            
+    14,                             1023                         ],                        
+    [                             15,                             1023                        
+    ],                         [                             16,                            
+    1023                         ],                         [                            
+    17,                             1023                         ],                        
+    [                             18,                             1023                        
+    ],                         [                             9,                            
+    1023                         ],                         [                            
+    8,                             1023                         ],                        
+    [                             7,                             1023                        
+    ],                         [                             6,                            
+    1023                         ],                         [                            
+    5,                             1023                         ],                        
+    [                             4,                             1023                        
+    ],                         [                             3,                            
+    1023                         ],                         [                            
+    0,                             1023                         ],                        
+    [                             2,                             1023                        
+    ],                         [                             1,                            
+    1023                         ]                     ]                 },                
+    "timeStamp": 28,                 "userParams": {                     "regionColor":
+    {                         "regionType": 0,                         "presetIndex":
+    -1,                         "colors": [                             [                                
+    0.1,                                 1,                                 1,                                
+    0                             ],                             [                                
+    0.4,                                 1,                                 0,                                
+    0                             ],                             [                                
+    0.7,                                 1,                                 1,                                
+    0                             ],                             [                                
+    0.9,                                 1,                                 1,                                
+    0                             ]                         ]                    
+    }                 }             }         ],         "nextWearTimeStamp": 29    
+    },     "avatarStyle": "PicoBasicBipedAvatar" }      '
+  - '       {     "info": {         "sex": "male",         "continent": "EU",        
+    "status": "Online",         "tag_list": [             "Common"         ],        
+    "background": {             "start_color": [                 148,                
+    111,                 253             ],             "end_color": [                
+    133,                 182,                 255             ],             "image":
+    "https://dfsedffe.png"         },         "avatar_type": "preset"     },    
+    "avatar": {         "skin": {             "color": "",             "white": 0,            
+    "softening": 0         },         "head": {             "technique": "Pico2-BS",            
+    "version": 1,             "floatIdParams": [],             "perParams": []        
+    },         "body": {             "technique": "Pico2-Bone",             "version":
+    1,             "floatIdParams": [],             "perParams": []         },        
+    "skeleton": {             "assetId": "1736054629367263232"         },        
+    "assetPins": [             {                 "assetId": "1756547430550896640",                
+    "ownerAssetId": null,                 "assetMeta": {                     "extData":
+    null,                     "pinType": 1,                     "assetType": 11,                    
+    "pinEditAttrs": {                         "regionMap": null,                        
+    "colorFlags": 0,                         "shoeParams": null,                        
+    "regionColors": [                             {                                
+    "regionType": 0,                                 "defaultPresetIndex": 0,                                
+    "minMultiplier": [                                     0,                                    
+    0,                                     0,                                    
+    0                                 ],                                 "maxMultiplier":
+    [                                     1,                                    
+    5,                                     5,                                    
+    5                                 ],                                 "presets":
+    []                             }                         ]                    
+    },                     "subAssetMetas": null,                     "texRegionLayerMasks":
+    null,                     "meshRegionLayerMasks": [                         [                            
+    21,                             1023                         ],                        
+    [                             19,                             1023                        
+    ],                         [                             12,                            
+    1023                         ],                         [                            
+    11,                             1023                         ],                        
+    [                             10,                             1023                        
+    ],                         [                             13,                            
+    1023                         ],                         [                            
+    14,                             1023                         ],                        
+    [                             15,                             1023                        
+    ],                         [                             16,                            
+    1023                         ],                         [                            
+    17,                             1023                         ],                        
+    [                             18,                             1023                        
+    ],                         [                             9,                            
+    1023                         ],                         [                            
+    8,                             1023                         ],                        
+    [                             7,                             1023                        
+    ],                         [                             6,                            
+    1023                         ],                         [                            
+    5,                             1023                         ],                        
+    [                             4,                             1023                        
+    ],                         [                             3,                            
+    1023                         ],                         [                            
+    0,                             1023                         ],                        
+    [                             2,                             1023                        
+    ],                         [                             1,                            
+    1023                         ]                     ]                 },                
+    "timeStamp": 28,                 "userParams": {                     "regionColor":
+    {                         "regionType": 0,                         "presetIndex":
+    -1,                         "colors": [                             [                                
+    0.1,                                 1,                                 1,                                
+    0                             ],                             [                                
+    0.4,                                 1,                                 0,                                
+    0                             ],                             [                                
+    0.7,                                 1,                                 1,                                
+    0                             ],                             [                                
+    0.9,                                 1,                                 1,                                
+    0                             ]                         ]                    
+    }                 }             }         ],         "nextWearTimeStamp": 29    
+    },     "avatarStyle": "PicoBasicBipedAvatar" }      '
+  - '       {     "info": {         "sex": "male",         "continent": "EU",        
+    "status": "Online",         "tag_list": [             "Common"         ],        
+    "background": {             "start_color": [                 148,                
+    111,                 253             ],             "end_color": [                
+    133,                 182,                 255             ],             "image":
+    "https://dfsedffe.png"         },         "avatar_type": "preset"     },    
+    "avatar": {         "skin": {             "color": "",             "white": 0,            
+    "softening": 0         },         "head": {             "technique": "Pico2-BS",            
+    "version": 1,             "floatIdParams": [],             "perParams": []        
+    },         "body": {             "technique": "Pico2-Bone",             "version":
+    1,             "floatIdParams": [],             "perParams": []         },        
+    "skeleton": {             "assetId": "1748009063802458112"         },        
+    "assetPins": [             {                 "assetId": "1747981453722632192",                
+    "ownerAssetId": null,                 "assetMeta": {                     "extData":
+    null,                     "pinType": 1,                     "assetType": 11,                    
+    "pinEditAttrs": {                         "regionMap": null,                        
+    "colorFlags": 0,                         "shoeParams": null,                        
+    "regionColors": [                             {                                
+    "regionType": 0,                                 "defaultPresetIndex": 0,                                
+    "minMultiplier": [                                     0,                                    
+    0,                                     0,                                    
+    0                                 ],                                 "maxMultiplier":
+    [                                     1,                                    
+    5,                                     5,                                    
+    5                                 ],                                 "presets":
+    []                             }                         ]                    
+    },                     "subAssetMetas": null,                     "texRegionLayerMasks":
+    null,                     "meshRegionLayerMasks": [                         [                            
+    21,                             1023                         ],                        
+    [                             19,                             1023                        
+    ],                         [                             12,                            
+    1023                         ],                         [                            
+    11,                             1023                         ],                        
+    [                             10,                             1023                        
+    ],                         [                             13,                            
+    1023                         ],                         [                            
+    14,                             1023                         ],                        
+    [                             15,                             1023                        
+    ],                         [                             16,                            
+    1023                         ],                         [                            
+    17,                             1023                         ],                        
+    [                             18,                             1023                        
+    ],                         [                             9,                            
+    1023                         ],                         [                            
+    8,                             1023                         ],                        
+    [                             7,                             1023                        
+    ],                         [                             6,                            
+    1023                         ],                         [                            
+    5,                             1023                         ],                        
+    [                             4,                             1023                        
+    ],                         [                             3,                            
+    1023                         ],                         [                            
+    0,                             1023                         ],                        
+    [                             2,                             1023                        
+    ],                         [                             1,                            
+    1023                         ]                     ]                 },                
+    "timeStamp": 28,                 "userParams": {                     "regionColor":
+    {                         "regionType": 0,                         "presetIndex":
+    -1,                         "colors": [                             [                                
+    0.1,                                 1,                                 1,                                
+    0                             ],                             [                                
+    0.4,                                 1,                                 0,                                
+    0                             ],                             [                                
+    0.7,                                 1,                                 1,                                
+    0                             ],                             [                                
+    0.9,                                 1,                                 1,                                
+    0                             ]                         ]                    
+    }                 }             }         ],         "nextWearTimeStamp": 29    
+    },     "avatarStyle": "PicoBasicBipedAvatar" }      '
+  - '       {     "info": {         "sex": "male",         "continent": "EU",        
+    "status": "Online",         "tag_list": [             "Common"         ],        
+    "background": {             "start_color": [                 148,                
+    111,                 253             ],             "end_color": [                
+    133,                 182,                 255             ],             "image":
+    "https://dfsedffe.png"         },         "avatar_type": "preset"     },    
+    "avatar": {         "skin": {             "color": "",             "white": 0,            
+    "softening": 0         },         "head": {             "technique": "Pico2-BS",            
+    "version": 1,             "floatIdParams": [],             "perParams": []        
+    },         "body": {             "technique": "Pico2-Bone",             "version":
+    1,             "floatIdParams": [],             "perParams": []         },        
+    "skeleton": {             "assetId": "1736054629367263232"         },        
+    "assetPins": [             {                 "assetId": "1735807546106298368",                
+    "ownerAssetId": null,                 "assetMeta": {                     "extData":
+    null,                     "pinType": 1,                     "assetType": 11,                    
+    "pinEditAttrs": {                         "regionMap": null,                        
+    "colorFlags": 0,                         "shoeParams": null,                        
+    "regionColors": [                             {                                
+    "regionType": 0,                                 "defaultPresetIndex": 0,                                
+    "minMultiplier": [                                     0,                                    
+    0,                                     0,                                    
+    0                                 ],                                 "maxMultiplier":
+    [                                     1,                                    
+    5,                                     5,                                    
+    5                                 ],                                 "presets":
+    []                             }                         ]                    
+    },                     "subAssetMetas": null,                     "texRegionLayerMasks":
+    null,                     "meshRegionLayerMasks": [                         [                            
+    21,                             1023                         ],                        
+    [                             19,                             1023                        
+    ],                         [                             12,                            
+    1023                         ],                         [                            
+    11,                             1023                         ],                        
+    [                             10,                             1023                        
+    ],                         [                             13,                            
+    1023                         ],                         [                            
+    14,                             1023                         ],                        
+    [                             15,                             1023                        
+    ],                         [                             16,                            
+    1023                         ],                         [                            
+    17,                             1023                         ],                        
+    [                             18,                             1023                        
+    ],                         [                             9,                            
+    1023                         ],                         [                            
+    8,                             1023                         ],                        
+    [                             7,                             1023                        
+    ],                         [                             6,                            
+    1023                         ],                         [                            
+    5,                             1023                         ],                        
+    [                             4,                             1023                        
+    ],                         [                             3,                            
+    1023                         ],                         [                            
+    0,                             1023                         ],                        
+    [                             2,                             1023                        
+    ],                         [                             1,                            
+    1023                         ]                     ]                 },                
+    "timeStamp": 28,                 "userParams": {                     "regionColor":
+    {                         "regionType": 0,                         "presetIndex":
+    -1,                         "colors": [                             [                                
+    0.1,                                 1,                                 1,                                
+    0                             ],                             [                                
+    0.4,                                 1,                                 0,                                
+    0                             ],                             [                                
+    0.7,                                 1,                                 1,                                
+    0                             ],                             [                                
+    0.9,                                 1,                                 1,                                
+    0                             ]                         ]                    
+    }                 }             }         ],         "nextWearTimeStamp": 29    
+    },     "avatarStyle": "PicoBasicBipedAvatar" }      '
+  - '{"info": {"sex": "female", "status": "Online", "tag_list": ["Common"], "continent":
+    "EU", "background": {"image": "https://dfsedffe.png", "end_color": [133, 182,
+    255], "start_color": [148, 111, 253]}, "avatar_type": "preset"}, "avatar": {"body":
+    {"version": 1, "perParams": [], "technique": "Pico2-Bone", "floatIdParams": []},
+    "head": {"version": 1, "perParams": [], "technique": "Pico2-BS", "floatIdParams":
+    []}, "skin": {"color": "", "white": 0, "softening": 0}, "assetPins": [{"assetId":
+    "1552287326629531648", "assetMeta": {"tags": ["clothCowboy-ClothUp"], "extData":
+    null, "pinType": 1, "version": 0, "assetType": 11, "pinEditAttrs": {"regionMap":
+    null, "colorFlags": 0, "shoeParams": null, "regionColors": [{"presets": [[[0.9,
+    1, 1, 1]], [[0.1, 1, 1, 0]], [[0.9, 1, 1, 0]], [[0.5, 1, 1, 1]], [[0.1, 1, 1,
+    1]], [[0.9, 1, 1, 1]]], "sliders": [1], "regionType": 1, "maxMultiplier": [1,
+    5, 5, 5], "minMultiplier": [0, 0, 0, 0], "defaultPresetIndex": 0}]}, "subAssetMetas":
+    null, "texRegionLayerMasks": null, "meshRegionLayerMasks": [[12, 1022], [11,
+    1022], [10, 1022]]}, "timeStamp": 15, "userParams": {"regionColor": {"colors":
+    [[0.9, 1, 1, 1]], "regionType": 1, "presetIndex": 0}}, "ownerAssetId": null},
+    {"assetId": "1552289050236813312", "assetMeta": {"tags": ["clothZephyr-ClothDn"],
+    "extData": null, "pinType": 1, "version": 0, "assetType": 11, "pinEditAttrs":
+    {"regionMap": null, "colorFlags": 0, "shoeParams": null, "regionColors": [{"presets":
+    [[[0.5, 1, 1, 1]], [[0.1, 1, 1, 0]], [[0.9, 1, 1, 0]], [[0.5, 1, 1, 1]], [[0.1,
+    1, 1, 1]], [[0.9, 1, 1, 1]]], "sliders": [1], "regionType": 1, "maxMultiplier":
+    [1, 5, 5, 5], "minMultiplier": [0, 0, 0, 0], "defaultPresetIndex": 0}]}, "subAssetMetas":
+    null, "texRegionLayerMasks": null, "meshRegionLayerMasks": [[9, 1022], [8, 1022],
+    [7, 1022]]}, "timeStamp": 17, "userParams": {"regionColor": {"colors": [[0.5,
+    1, 1, 1]], "regionType": 1, "presetIndex": 0}}, "ownerAssetId": null}, {"assetId":
+    "1552330336834682880", "assetMeta": {"tags": ["clothExercise-Shoes"], "extData":
+    null, "pinType": 1, "version": 0, "assetType": 12, "pinEditAttrs": {"regionMap":
+    null, "colorFlags": 0, "shoeParams": {"heelHeight": 0, "soleThickness": 0.01},
+    "regionColors": [{"presets": [[[0.2, 1, 1, 1]], [[0.1, 1, 1, 0]], [[0.9, 1, 1,
+    0]], [[0.5, 1, 1, 1]], [[0.1, 1, 1, 1]], [[0.9, 1, 1, 1]]], "sliders": [1], "regionType":
+    1, "maxMultiplier": [1, 5, 5, 5], "minMultiplier": [0, 0, 0, 0], "defaultPresetIndex":
+    0}]}, "subAssetMetas": null, "texRegionLayerMasks": null, "meshRegionLayerMasks":
+    [[4, 112], [3, 112], [0, 112], [2, 112], [1, 112]]}, "timeStamp": 18, "userParams":
+    {"regionColor": {"colors": [[0.2, 1, 1, 1]], "regionType": 1, "presetIndex":
+    0}}, "ownerAssetId": null}, {"assetId": "1552287785335373824", "assetMeta": {"tags":
+    ["clothCowboy-Hair"], "extData": null, "pinType": 1, "version": 0, "assetType":
+    13, "pinEditAttrs": {"regionMap": null, "colorFlags": 0, "shoeParams": null,
+    "regionColors": [{"presets": [[[0.426797, 1, 1, 1]]], "sliders": [1], "regionType":
+    1, "maxMultiplier": [1, 2, 2, 2], "minMultiplier": [0, 0, 0, 0], "defaultPresetIndex":
+    0}, {"presets": [[[0.426797, 1, 1, 1], [0.833333, 1, 0.878431, 1]]], "sliders":
+    [4], "regionType": 3, "maxMultiplier": [1, 2, 2, 2], "minMultiplier": [0, 0,
+    0, 0], "defaultPresetIndex": 0}]}, "subAssetMetas": null, "texRegionLayerMasks":
+    null, "meshRegionLayerMasks": [[21, 1022]]}, "timeStamp": 24, "userParams": {"regionColor":
+    {"colors": [[0.426797, 1, 1, 1]], "regionType": 1, "presetIndex": 0}}, "ownerAssetId":
+    null}], "nextWearTimeStamp": 25}, "avatarStyle": "PicoAvatar3"}'
