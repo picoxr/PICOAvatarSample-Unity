@@ -1,24 +1,13 @@
 This repository contains samples demonstrating the usage of the PICO Avatar SDK.
-The Avatar SDK and PICO XR SDK are imported as UPM Git URL dependencies declared in `Packages/manifest.json`.
 
 # Requirement
 
-| Environment                 | Version        |
-|-----------------------------|----------------|
-| Unity Editor                | 2022.3.62f3    |
-| PICO Avatar SDK             | 6.0.0          |
-| PICO Unity SDK (XR)         | 6.1.1          |
-| Universal Render Pipeline   | 14.0.12        |
-| PICO Device's System Version| 6.0.0          |
-
-# Dependencies
-
-The following packages are resolved from Git URLs through the Unity Package Manager:
-
-| Package                | Source |
-|------------------------|--------|
-| org.byted.avatar.sdk   | https://github.com/Pico-Developer/PICO-Avatar-SDK-Unity.git#V6.0.0 |
-| com.bytedance.pico.xr  | https://github.com/Pico-Developer/PICO-Unity-SDK.git?path=/XR#6.1.0 |
+| Environment                 | Version            |
+|-----------------------------|--------------------|
+| Unity Editor                | &ge;2022.3, &lt; Unity 6 |
+| PICO Avatar SDK             | &ge;6.0.0          |
+| PICO Unity SDK (XR)         | &ge;6.0.0          |
+| PICO Device's System Version| &ge;6.0.0          |
 
 # SampleList
 
