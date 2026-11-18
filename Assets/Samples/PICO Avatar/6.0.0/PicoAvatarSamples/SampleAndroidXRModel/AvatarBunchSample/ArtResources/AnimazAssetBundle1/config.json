@@ -1,0 +1,17 @@
+{
+	"assetType":	"animation",
+	"tag":	"body",
+	"md5":	"55231124169253906257071338141027762828",
+	"version":	"1.0",
+	"animations":	{
+		"A_E02_Male_Chicken Dance":	"animaz/A_E02_Male_ChickenDance.A_E02_Male_Chicken Dance.animaz",
+		"A_E02_Male_Gangnam Style":	"animaz/A_E02_Male_GangnamStyle.A_E02_Male_Gangnam Style.animaz",
+		"Night_11_Male.Take 001":	"animaz/Night_11_Male.Take 001.animaz",
+		"picoroom_mouth":	"animaz/picoroom_mouth.animaz",
+		"picoroom_r_neo3":	"animaz/picoroom_r_neo3.animaz",
+		"picoroom_r_qiang":	"animaz/picoroom_r_qiang.animaz",
+		"picoroom_r_shayu":	"animaz/picoroom_r_shayu.animaz",
+		"picoroom_r_yingguangbang":	"animaz/picoroom_r_yingguangbang.animaz",
+		"picoroom_r_zipaigan":	"animaz/picoroom_r_zipaigan.animaz"
+	}
+}
